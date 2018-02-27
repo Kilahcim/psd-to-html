@@ -14,7 +14,7 @@
   .navbar-nav > li > ul.dropdown-menu {
     background: none;
   }
-  .header h1 {
+  .header h2 {
     font-size: 60px;
   }
   .header p {
@@ -26,10 +26,17 @@
   .left {
     float: left;
     }
-    .margin-leftright {
-      padding:0 20px;
-    }
-  .whatwedid h1, .whatwedid h3, .whatwedid p {
+.contact h2 {
+  text-align: right;
+}
+  .contact p {
+    text-align: right;
+  }
+
+  .margin-leftright {
+    padding:0 20px;
+  }
+  .whatwedid h2, .whatwedid h3, .whatwedid p {
     text-align: left
   }
   .whatwedid h3 {
@@ -41,7 +48,7 @@
   .whatwedid .text {
     margin: 0 125px;
   }
-  .learn h1 {
+  .learn h2 {
     margin-left: 100px;
   }
   .learn .box-black {
@@ -53,11 +60,15 @@
   footer ul.social-icon {
     margin-top: 0;
   }
-  footer p.text-center, h2.text-center {
+  footer p.text-center, footer h2.text-center {
     text-align: left;
   }
   footer p.last-one{
     margin-top: 10px;
+  }
+  footer a {
+    text-decoration: none;
+    color: #ffffff;
   }
 }
 
